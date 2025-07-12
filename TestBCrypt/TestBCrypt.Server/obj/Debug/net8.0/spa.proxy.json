@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:53409",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\TestBCrypt\\TestBCrypt.Server\\..\\testbcrypt.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

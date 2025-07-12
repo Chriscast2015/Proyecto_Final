@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:53423",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\BCryptPasswordTest\\BCryptPasswordTest.Server\\..\\bcryptpasswordtest.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

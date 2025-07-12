@@ -1,0 +1,92 @@
+/* Contenedor centrado */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f2f4f8;
+    padding: 1rem;
+}
+
+/* Tarjeta principal */
+.login-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 400px;
+}
+
+    /* Título */
+    .login-card h2 {
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+        text-align: center;
+        color: #333333;
+    }
+
+/* Formulario */
+.login-form .form-group {
+    margin-bottom: 1rem;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+    color: #555555;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Botón */
+.btn {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+    .btn:hover {
+        background: #0056b3;
+    }
+
+/* Mensaje de error */
+.error {
+    background: #ffe5e5;
+    color: #b00020;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Enlace de registro */
+.register-link {
+    text-align: center;
+    margin-top: 1.25rem;
+    font-size: 0.9rem;
+    color: #555555;
+}
+
+    .register-link a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .register-link a:hover {
+            text-decoration: underline;
+        }
