@@ -9,6 +9,7 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="public\Sonidos\" />
     <Folder Include="src\utils\" />
   </ItemGroup>
 </Project>

@@ -1,32 +1,22 @@
-// src/App.jsx
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
-import PrivateRoute from './components/PrivateRoute';
 import Dashboard from './pages/Dashboard';
+import SubjectPage from './pages/SubjectPage';
+import PrivateRoute from './components/PrivateRoute';
 
 export default function App() {
-    // Chequeo rápido de token
-    const token = localStorage.getItem('token');
-
     return (
         <BrowserRouter>
             <Routes>
-                {/* 1) Ruta raíz: si hay token vamos al dashboard, si no, al login */}
-                <Route
-                    path="/"
-                    element={
-                        token
-                            ? <Navigate to="/dashboard" replace />
-                            : <Navigate to="/login" replace />
-                    }
-                />
+                {/* 1) Raíz: siempre login */}
+                <Route path="/" element={<LoginPage />} />
 
                 {/* 2) Páginas públicas */}
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/register" element={<RegisterPage />} />
 
-                {/* 3) Ruta protegida para el Dashboard */}
+                {/* 3) Dashboard protegido */}
                 <Route
                     path="/dashboard"
                     element={
@@ -36,7 +26,17 @@ export default function App() {
                     }
                 />
 
-                {/* 4) Cualquier otra cosa redirige a "/" */}
+                {/* 4) Página de materia protegida */}
+                <Route
+                    path="/subjects/:subject"
+                    element={
+                        <PrivateRoute>
+                            <SubjectPage />
+                        </PrivateRoute>
+                    }
+                />
+
+                {/* 5) Catch-all redirige a "/" */}
                 <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
         </BrowserRouter>

@@ -63,7 +63,16 @@ export default function LoginPage() {
                         />
                     </div>
 
-                    <button type="submit" className="btn">
+                    <button
+                        type="submit"
+                        className="btn"
+                        onClick={() => {
+                            const audio = new Audio('/Sonidos/click.mp3');
+                            audio.play().catch(error => {
+                                console.error("No se pudo reproducir el sonido:", error);
+                            });
+                        }}
+                    >
                         Entrar
                     </button>
                 </form>
