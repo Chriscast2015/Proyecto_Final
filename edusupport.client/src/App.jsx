@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+ï»¿import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import Dashboard from './pages/Dashboard';
@@ -9,10 +9,10 @@ export default function App() {
     return (
         <BrowserRouter>
             <Routes>
-                {/* 1) Raíz: siempre login */}
+                {/* 1) RaÃ­z: siempre login */}
                 <Route path="/" element={<LoginPage />} />
 
-                {/* 2) Páginas públicas */}
+                {/* 2) PÃ¡ginas pÃºblicas */}
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/register" element={<RegisterPage />} />
 
@@ -26,7 +26,7 @@ export default function App() {
                     }
                 />
 
-                {/* 4) Página de materia protegida */}
+                {/* 4) PÃ¡gina de materia protegida */}
                 <Route
                     path="/subjects/:subject"
                     element={
