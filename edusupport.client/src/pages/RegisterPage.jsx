@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import { register } from '../services/auth';
 
 export default function RegisterPage() {
+    const [nombre, setNombre] = useState('');
+    const [apellido, setApellido] = useState('');
     const [email, setEmail] = useState('');
     const [pwd, setPwd] = useState('');
     const [error, setError] = useState(null);
@@ -14,10 +16,11 @@ export default function RegisterPage() {
         setError(null);
 
         try {
-            const { token } = await register(email, pwd);
+            // Asegúrate de actualizar tu servicio `register`
+            // para que acepte (nombre, apellido, email, pwd)
+            const { token } = await register(nombre, apellido, email, pwd);
             if (token) {
                 localStorage.setItem('token', token);
-                // Tras registrarse redirigimos al login
                 navigate('/login');
             }
         } catch (err) {
@@ -29,6 +32,29 @@ export default function RegisterPage() {
         <div>
             <h1>Registro</h1>
             <form onSubmit={handleSubmit}>
+
+                <label htmlFor="nombre">Nombre</label>
+                <input
+                    id="nombre"
+                    type="text"
+                    value={nombre}
+                    onChange={e => setNombre(e.target.value)}
+                    required
+                    minLength={3}
+                    aria-label="Nombre"
+                />
+
+                <label htmlFor="apellido">Apellido</label>
+                <input
+                    id="apellido"
+                    type="text"
+                    value={apellido}
+                    onChange={e => setApellido(e.target.value)}
+                    required
+                    minLength={3}
+                    aria-label="Apellido"
+                />
+
                 <label htmlFor="email">Email</label>
                 <input
                     id="email"
@@ -49,7 +75,11 @@ export default function RegisterPage() {
                     aria-label="Contraseña"
                 />
 
-                {error && <p role="alert" style={{ color: 'red' }}>{error}</p>}
+                {error && (
+                    <p role="alert" style={{ color: 'red' }}>
+                        {error}
+                    </p>
+                )}
 
                 <button type="submit">Crear cuenta</button>
             </form>

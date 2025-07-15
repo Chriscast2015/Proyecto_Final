@@ -174,3 +174,4 @@ D:\Jenny\Desktop\Proyecto_Final\EduSupport\EduSupport.Server\obj\Debug\net8.0\Ed
 D:\Jenny\Desktop\Proyecto_Final\EduSupport\EduSupport.Server\obj\Debug\net8.0\EduSupport.Server.genruntimeconfig.cache
 D:\Jenny\Desktop\Proyecto_Final\EduSupport\EduSupport.Server\obj\Debug\net8.0\ref\EduSupport.Server.dll
 D:\Jenny\Desktop\Proyecto_Final\EduSupport\EduSupport.Server\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Jenny\Desktop\Proyecto_Final\EduSupport\EduSupport.Server\obj\Debug\net8.0\EduSupport.Server.sourcelink.json

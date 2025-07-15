@@ -29,17 +29,26 @@ namespace EduSupport.Server.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] UserRegisterDto dto)
         {
+            // Validar las DataAnnotations del DTO
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            // Comprobar si el email ya existe
             if (await _db.Users.AnyAsync(u => u.Email == dto.Email))
                 return BadRequest("Usuario ya existe");
 
+            // Mapear todas las propiedades necesarias
             var user = new User
             {
+                Nombre = dto.Nombre,
+                Apellido = dto.Apellido,
                 Email = dto.Email,
                 PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password)
             };
 
             _db.Users.Add(user);
             await _db.SaveChangesAsync();
+
             return Ok(new { token = GenerateToken(user) });
         }
 

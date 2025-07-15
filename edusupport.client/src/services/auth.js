@@ -7,11 +7,11 @@ const API = '/api/auth';
  * Registra un nuevo usuario.
  * Lanza un Error con el texto de la respuesta si status != 2xx.
  */
-export async function register(email, password) {
+export async function register(nombre, apellido, email, password) {
     const res = await fetch(`${API}/register`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password })
+        body: JSON.stringify({ nombre, apellido, email, password })
     });
 
     if (!res.ok) {
