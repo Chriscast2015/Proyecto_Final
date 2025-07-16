@@ -15,8 +15,9 @@ export async function register(nombre, apellido, email, password) {
     });
 
     if (!res.ok) {
-        const errorText = await res.text();
-        throw new Error(errorText || 'Error en el registro');
+        const data = await res.json();
+        const msg = data?.errors?.Password?.[0] || data?.title || 'Error en el registro';
+        throw new Error(msg);
     }
 
     return res.json();

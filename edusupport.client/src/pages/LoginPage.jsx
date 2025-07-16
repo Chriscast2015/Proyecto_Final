@@ -17,6 +17,7 @@ export default function LoginPage() {
             const { token } = await login(email, pwd);
             if (token) {
                 localStorage.setItem('token', token);
+               
                 - navigate('/');
                 + navigate('/dashboard');
             } else {

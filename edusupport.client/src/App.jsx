@@ -5,12 +5,16 @@ import Dashboard from './pages/Dashboard';
 import SubjectPage from './pages/SubjectPage';
 import PrivateRoute from './components/PrivateRoute';
 
+
+
 export default function App() {
     return (
         <BrowserRouter>
             <Routes>
                 {/* 1) Raíz: siempre login */}
                 <Route path="/" element={<LoginPage />} />
+               
+
 
                 {/* 2) Páginas públicas */}
                 <Route path="/login" element={<LoginPage />} />

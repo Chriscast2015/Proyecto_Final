@@ -7,6 +7,7 @@ export default function Dashboard() {
     // 🔊 Hook para reproducir el sonido al hacer clic
     const playClick = useSound('/Sonidos/click.mp3');
 
+    
     const subjects = [
         {
             title: 'Filosofía',
@@ -40,6 +41,10 @@ export default function Dashboard() {
 
     return (
         <div className="dashboard-container">
+            <div className="saludo-suave">
+                <p>Bienvenido de nuevo 👋</p>
+            </div>
+
             <h1>Panel de Materias</h1>
             <div className="subjects-grid">
                 {subjects.map(sub => (
@@ -48,4 +53,5 @@ export default function Dashboard() {
             </div>
         </div>
     );
+
 }
