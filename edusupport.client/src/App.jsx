@@ -2,10 +2,13 @@
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import Dashboard from './pages/Dashboard';
-import SubjectPage from './pages/SubjectPage';
 import PrivateRoute from './components/PrivateRoute';
 
-
+// Importa las páginas de cada materia
+import Filosofia from './pages/Filosofia';
+import Historia from './pages/Historia';
+import Ingles from './pages/Ingles';
+import CienciasNaturales from './pages/CienciasNaturales';
 
 export default function App() {
     return (
@@ -13,8 +16,6 @@ export default function App() {
             <Routes>
                 {/* 1) Raíz: siempre login */}
                 <Route path="/" element={<LoginPage />} />
-               
-
 
                 {/* 2) Páginas públicas */}
                 <Route path="/login" element={<LoginPage />} />
@@ -30,12 +31,36 @@ export default function App() {
                     }
                 />
 
-                {/* 4) Página de materia protegida */}
+                {/* 4) Páginas de materias protegidas */}
                 <Route
-                    path="/subjects/:subject"
+                    path="/pages/Filosofia.jsx"
                     element={
                         <PrivateRoute>
-                            <SubjectPage />
+                            <Filosofia />
+                        </PrivateRoute>
+                    }
+                />
+                <Route
+                    path="/pages/Historia.jsx"
+                    element={
+                        <PrivateRoute>
+                            <Historia />
+                        </PrivateRoute>
+                    }
+                />
+                <Route
+                    path="/pages/Ingles.jsx"
+                    element={
+                        <PrivateRoute>
+                            <Ingles />
+                        </PrivateRoute>
+                    }
+                />
+                <Route
+                    path="/pages/CienciasNaturales.jsx"
+                    element={
+                        <PrivateRoute>
+                            <CienciasNaturales />
                         </PrivateRoute>
                     }
                 />

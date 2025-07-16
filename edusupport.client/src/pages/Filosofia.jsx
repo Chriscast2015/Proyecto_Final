@@ -1,45 +1,45 @@
 import React from 'react';
 
-export default function CienciasNaturales() {
+export default function Filosofia() {
     const modules = [
         {
-            title: 'MÛdulo 1: Fundamentos',
-            description: 'Conceptos b·sicos introductorios',
-            duration: '0:48',
-            audioSrc: '/Sonidos/fundamentos.mp3',
-            transcript: 'En este mÛdulo exploramos los conceptos b·sicos de la biologÌa, incluyendo cÈlulas, organismos y ecosistemas...'
+            title: 'M√≥dulo 1: Introducci√≥n a la Filosof√≠a',
+            description: 'Explora los or√≠genes del pensamiento filos√≥fico',
+            duration: '1:41',
+            audioSrc: '/Sonidos/filosofia1.mp3',
+            transcript: 'Este m√≥dulo aborda los primeros fil√≥sofos griegos y c√≥mo surgieron las preguntas fundamentales sobre la existencia...'
         },
         {
-            title: 'MÛdulo 2: Nivel Intermedio',
-            description: 'ProfundizaciÛn en conceptos clave',
-            duration: '0:50',
-            audioSrc: '/Sonidos/intermedio.mp3',
-            transcript: 'AquÌ analizamos la fotosÌntesis, la cadena alimenticia y el ciclo del agua en detalle...'
+            title: 'M√≥dulo 2: √âtica y Moral',
+            description: 'Reflexiona sobre el bien y el mal',
+            duration: '1:22',
+            audioSrc: '/Sonidos/filosofia2.mp3',
+            transcript: 'Aqu√≠ se analizan teor√≠as √©ticas como el utilitarismo, el deber moral y la √©tica de la virtud...'
         },
         {
-            title: 'MÛdulo 3: Nivel Avanzado',
-            description: 'Aplicaciones pr·cticas y casos de estudio',
-            duration: '0:52',
-            audioSrc: '/Sonidos/avanzado.mp3',
-            transcript: 'Este mÛdulo presenta estudios de campo, experimentos cientÌficos y cÛmo aplicar el mÈtodo cientÌfico...'
+            title: 'M√≥dulo 3: Filosof√≠a Contempor√°nea',
+            description: 'Ideas modernas y corrientes actuales',
+            duration: '1:29',
+            audioSrc: '/Sonidos/filosofia3.mp3',
+            transcript: 'Se estudian pensadores como Sartre, Foucault y Habermas, y sus aportes al pensamiento moderno...'
         }
     ];
 
     return (
         <div style={styles.container}>
-            <h1 style={styles.title}>Ciencias Naturales</h1>
+            <h1 style={styles.title}>Filosof√≠a</h1>
             <div style={styles.grid}>
                 {modules.map((mod, index) => (
                     <div key={index} style={styles.card}>
                         <h2>{mod.title}</h2>
                         <p>{mod.description}</p>
-                        <p><strong>DuraciÛn:</strong> {mod.duration}</p>
+                        <p><strong>Duraci√≥n:</strong> {mod.duration}</p>
                         <audio controls style={styles.audio}>
                             <source src={mod.audioSrc} type="audio/mpeg" />
                             Tu navegador no soporta el elemento de audio.
                         </audio>
                         <div style={styles.transcript}>
-                            <h3>TranscripciÛn</h3>
+                            <h3>Transcripci√≥n</h3>
                             <p>{mod.transcript}</p>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ const styles = {
         marginTop: '1rem',
         backgroundColor: '#ecf0f1',
         padding: '1rem',
-        borderLeft: '4px solid #27ae60',
+        borderLeft: '4px solid #2980b9',
         borderRadius: '5px',
     }
 };

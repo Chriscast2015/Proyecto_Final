@@ -1,13 +1,13 @@
-// src/hooks/useSound.js
 import { useRef, useEffect } from 'react';
 
 const useSound = (src) => {
     const audioRef = useRef(null);
 
     useEffect(() => {
-        // Creamos el Audio con la ruta tal cual (public/Sonidos/)
+        // Crear el objeto Audio solo una vez
         audioRef.current = new Audio(src);
         audioRef.current.preload = 'auto';
+
         return () => {
             if (audioRef.current) {
                 audioRef.current.pause();
@@ -18,7 +18,14 @@ const useSound = (src) => {
 
     const playSound = () => {
         if (!audioRef.current) return;
-        audioRef.current.currentTime = 0;
+
+        // Si el audio está reproduciéndose, lo reiniciamos
+        if (!audioRef.current.paused) {
+            audioRef.current.pause();
+            audioRef.current.currentTime = 0;
+        }
+
+        // Reproducir el sonido
         audioRef.current.play().catch((err) => {
             console.error('Error al reproducir el sonido:', err);
         });

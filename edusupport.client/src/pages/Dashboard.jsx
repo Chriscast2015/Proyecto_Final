@@ -11,28 +11,28 @@ export default function Dashboard() {
     const subjects = [
         {
             title: 'Filosofía',
-            to: '/subjects/filosofia',
+            to: '/pages/filosofia.jsx',
             icon: '🧠',
             description: 'Explora el pensamiento humano',
             onClick: playClick
         },
         {
             title: 'Historia',
-            to: '/subjects/historia',
+            to: '/pages/Historia.jsx',
             icon: '🏰',
             description: 'Viaja a través del tiempo',
             onClick: playClick
         },
         {
             title: 'Inglés',
-            to: '/subjects/ingles',
+            to: '/pages/Ingles.jsx',
             icon: '📚',
             description: 'Domina el idioma global',
             onClick: playClick
         },
         {
             title: 'Ciencias Naturales',
-            to: '/subjects/ciencias-naturales',
+            to: '/pages/CienciasNaturales.jsx',
             icon: '🔬',
             description: 'Descubre la naturaleza',
             onClick: playClick
