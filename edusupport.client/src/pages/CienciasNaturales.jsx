@@ -1,27 +1,27 @@
-import React from 'react';
+Ôªøimport React from 'react';
 
 export default function CienciasNaturales() {
     const modules = [
         {
-            title: 'MÛdulo 1: Fundamentos',
-            description: 'Conceptos b·sicos introductorios',
+            title: 'M√≥dulo 1: Fundamentos',
+            description: 'Conceptos b√°sicos introductorios',
             duration: '0:48',
             audioSrc: '/Sonidos/fundamentos.mp3',
-            transcript: 'En este mÛdulo exploramos los conceptos b·sicos de la biologÌa, incluyendo cÈlulas, organismos y ecosistemas...'
+            transcript: 'En este m√≥dulo exploramos los conceptos b√°sicos de la biolog√≠a, incluyendo c√©lulas, organismos y ecosistemas...'
         },
         {
-            title: 'MÛdulo 2: Nivel Intermedio',
-            description: 'ProfundizaciÛn en conceptos clave',
+            title: 'M√≥dulo 2: Nivel Intermedio',
+            description: 'Profundizaci√≥n en conceptos clave',
             duration: '0:50',
             audioSrc: '/Sonidos/intermedio.mp3',
-            transcript: 'AquÌ analizamos la fotosÌntesis, la cadena alimenticia y el ciclo del agua en detalle...'
+            transcript: 'Aqu√≠ analizamos la fotos√≠ntesis, la cadena alimenticia y el ciclo del agua en detalle...'
         },
         {
-            title: 'MÛdulo 3: Nivel Avanzado',
-            description: 'Aplicaciones pr·cticas y casos de estudio',
+            title: 'M√≥dulo 3: Nivel Avanzado',
+            description: 'Aplicaciones pr√°cticas y casos de estudio',
             duration: '0:52',
             audioSrc: '/Sonidos/avanzado.mp3',
-            transcript: 'Este mÛdulo presenta estudios de campo, experimentos cientÌficos y cÛmo aplicar el mÈtodo cientÌfico...'
+            transcript: 'Este m√≥dulo presenta estudios de campo, experimentos cient√≠ficos y c√≥mo aplicar el m√©todo cient√≠fico...'
         }
     ];
 
@@ -33,13 +33,13 @@ export default function CienciasNaturales() {
                     <div key={index} style={styles.card}>
                         <h2>{mod.title}</h2>
                         <p>{mod.description}</p>
-                        <p><strong>DuraciÛn:</strong> {mod.duration}</p>
+                        <p><strong>Duraci√≥n:</strong> {mod.duration}</p>
                         <audio controls style={styles.audio}>
                             <source src={mod.audioSrc} type="audio/mpeg" />
                             Tu navegador no soporta el elemento de audio.
                         </audio>
                         <div style={styles.transcript}>
-                            <h3>TranscripciÛn</h3>
+                            <h3>Transcripci√≥n</h3>
                             <p>{mod.transcript}</p>
                         </div>
                     </div>

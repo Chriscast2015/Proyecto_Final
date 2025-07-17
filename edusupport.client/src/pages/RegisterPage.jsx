@@ -1,4 +1,4 @@
-import { useState } from 'react';
+ï»¿import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { register } from '../services/auth';
 import './RegisterPage.css';
@@ -58,7 +58,7 @@ export default function RegisterPage() {
                     </div>
 
                     <div className="form-group">
-                        <label htmlFor="email">Correo electrónico</label>
+                        <label htmlFor="email">Correo electrÃ³nico</label>
                         <input
                             id="email"
                             type="email"
@@ -71,11 +71,11 @@ export default function RegisterPage() {
                     </div>
 
                     <div className="form-group">
-                        <label htmlFor="pwd">Contraseña</label>
+                        <label htmlFor="pwd">ContraseÃ±a</label>
                         <input
                             id="pwd"
                             type="password"
-                            placeholder="Crea una contraseña"
+                            placeholder="Crea una contraseÃ±a"
                             value={pwd}
                             onChange={e => setPwd(e.target.value)}
                             required

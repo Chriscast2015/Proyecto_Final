@@ -1,27 +1,27 @@
-import React from 'react';
+锘縤mport React from 'react';
 
 export default function Historia() {
     const modules = [
         {
-            title: 'M骴ulo 1: Edad Antigua',
-            description: 'Civilizaciones cl醩icas y sus legados',
+            title: 'M贸dulo 1: Edad Antigua',
+            description: 'Civilizaciones cl谩sicas y sus legados',
             duration: '1:10',
             audioSrc: '/Sonidos/historia1.mp3',
-            transcript: 'Estudiamos Egipto, Grecia y Roma, y c髆o sus estructuras sociales y pol韙icas influenciaron el mundo moderno...'
+            transcript: 'Estudiamos Egipto, Grecia y Roma, y c贸mo sus estructuras sociales y pol铆ticas influenciaron el mundo moderno...'
         },
         {
-            title: 'M骴ulo 2: Edad Media',
-            description: 'Feudalismo, religi髇 y cultura medieval',
+            title: 'M贸dulo 2: Edad Media',
+            description: 'Feudalismo, religi贸n y cultura medieval',
             duration: '1:04',
             audioSrc: '/Sonidos/historia2.mp3',
             transcript: 'Exploramos el sistema feudal, las cruzadas y el papel de la Iglesia en la vida cotidiana...'
         },
         {
-            title: 'M骴ulo 3: Edad Moderna y Contempor醤ea',
-            description: 'Revoluciones, guerras y globalizaci髇',
+            title: 'M贸dulo 3: Edad Moderna y Contempor谩nea',
+            description: 'Revoluciones, guerras y globalizaci贸n',
             duration: '1:02',
             audioSrc: '/Sonidos/historia3.mp3',
-            transcript: 'Desde la Revoluci髇 Francesa hasta la Segunda Guerra Mundial y el mundo globalizado actual...'
+            transcript: 'Desde la Revoluci贸n Francesa hasta la Segunda Guerra Mundial y el mundo globalizado actual...'
         }
     ];
 
@@ -33,13 +33,13 @@ export default function Historia() {
                     <div key={index} style={styles.card}>
                         <h2>{mod.title}</h2>
                         <p>{mod.description}</p>
-                        <p><strong>Duraci髇:</strong> {mod.duration}</p>
+                        <p><strong>Duraci贸n:</strong> {mod.duration}</p>
                         <audio controls style={styles.audio}>
                             <source src={mod.audioSrc} type="audio/mpeg" />
                             Tu navegador no soporta el elemento de audio.
                         </audio>
                         <div style={styles.transcript}>
-                            <h3>Transcripci髇</h3>
+                            <h3>Transcripci贸n</h3>
                             <p>{mod.transcript}</p>
                         </div>
                     </div>

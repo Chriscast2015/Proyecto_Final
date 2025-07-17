@@ -1,45 +1,45 @@
-import React from 'react';
+锘縤mport React from 'react';
 
 export default function Ingles() {
     const modules = [
         {
-            title: 'M骴ulo 1: Vocabulario B醩ico',
-            description: 'Palabras esenciales para la comunicaci髇',
+            title: 'M贸dulo 1: Vocabulario B谩sico',
+            description: 'Palabras esenciales para la comunicaci贸n',
             duration: '1:05',
             audioSrc: '/Sonidos/ingles1.mp3',
-            transcript: 'Aprender醩 saludos, n鷐eros, colores y frases comunes para iniciar conversaciones...'
+            transcript: 'Aprender谩s saludos, n煤meros, colores y frases comunes para iniciar conversaciones...'
         },
         {
-            title: 'M骴ulo 2: Gram醫ica Fundamental',
-            description: 'Estructura del idioma ingl閟',
+            title: 'M贸dulo 2: Gram谩tica Fundamental',
+            description: 'Estructura del idioma ingl茅s',
             duration: '0:58',
             audioSrc: '/Sonidos/ingles2.mp3',
-            transcript: 'Estudiaremos tiempos verbales, pronombres, preposiciones y c髆o formar oraciones correctamente...'
+            transcript: 'Estudiaremos tiempos verbales, pronombres, preposiciones y c贸mo formar oraciones correctamente...'
         },
         {
-            title: 'M骴ulo 3: Comprensi髇 Auditiva',
-            description: 'Mejora tu habilidad para entender el ingl閟 hablado',
+            title: 'M贸dulo 3: Comprensi贸n Auditiva',
+            description: 'Mejora tu habilidad para entender el ingl茅s hablado',
             duration: '1:10',
             audioSrc: '/Sonidos/ingles3.mp3',
-            transcript: 'Escuchar醩 di醠ogos reales, conversaciones cotidianas y ejercicios de pronunciaci髇...'
+            transcript: 'Escuchar谩s di谩logos reales, conversaciones cotidianas y ejercicios de pronunciaci贸n...'
         }
     ];
 
     return (
         <div style={styles.container}>
-            <h1 style={styles.title}>Ingl閟</h1>
+            <h1 style={styles.title}>Ingl茅s</h1>
             <div style={styles.grid}>
                 {modules.map((mod, index) => (
                     <div key={index} style={styles.card}>
                         <h2>{mod.title}</h2>
                         <p>{mod.description}</p>
-                        <p><strong>Duraci髇:</strong> {mod.duration}</p>
+                        <p><strong>Duraci贸n:</strong> {mod.duration}</p>
                         <audio controls style={styles.audio}>
                             <source src={mod.audioSrc} type="audio/mpeg" />
                             Tu navegador no soporta el elemento de audio.
                         </audio>
                         <div style={styles.transcript}>
-                            <h3>Transcripci髇</h3>
+                            <h3>Transcripci贸n</h3>
                             <p>{mod.transcript}</p>
                         </div>
                     </div>

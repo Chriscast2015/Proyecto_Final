@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+ï»¿import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { login } from '../services/auth';
 import './LoginPage.css';
@@ -31,7 +31,7 @@ export default function LoginPage() {
     return (
         <div className="login-container">
             <div className="login-card" role="main" aria-labelledby="login-title">
-                <h2 id="login-title">Iniciar sesión</h2>
+                <h2 id="login-title">Iniciar sesiÃ³n</h2>
 
                 <form onSubmit={onSubmit} className="login-form" noValidate>
                     {error && (
@@ -41,7 +41,7 @@ export default function LoginPage() {
                     )}
 
                     <div className="form-group">
-                        <label htmlFor="email">Correo electrónico</label>
+                        <label htmlFor="email">Correo electrÃ³nico</label>
                         <input
                             id="email"
                             type="email"
@@ -53,7 +53,7 @@ export default function LoginPage() {
                     </div>
 
                     <div className="form-group">
-                        <label htmlFor="pwd">Contraseña</label>
+                        <label htmlFor="pwd">ContraseÃ±a</label>
                         <input
                             id="pwd"
                             type="password"
@@ -79,9 +79,9 @@ export default function LoginPage() {
                 </form>
 
                 <p className="register-link">
-                    ¿No tienes cuenta?{' '}
+                    Â¿No tienes cuenta?{' '}
                     <Link to="/register">
-                        Regístrate
+                        RegÃ­strate
                     </Link>
                 </p>
             </div>
