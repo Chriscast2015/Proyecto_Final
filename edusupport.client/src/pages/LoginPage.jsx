@@ -80,7 +80,15 @@ export default function LoginPage() {
 
                 <p className="register-link">
                     ¿No tienes cuenta?{' '}
-                    <Link to="/register">
+                    <Link
+                        to="/register"
+                        onClick={() => {
+                            const audio = new Audio('/Sonidos/click.mp3');
+                            audio.play().catch(error => {
+                                console.error("No se pudo reproducir el sonido:", error);
+                            });
+                        }}
+                    >
                         Regístrate
                     </Link>
                 </p>
