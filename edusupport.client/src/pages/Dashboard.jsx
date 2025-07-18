@@ -1,14 +1,15 @@
-﻿import React from 'react';
+﻿// src/pages/Dashboard.jsx
+import React from 'react';
 import SubjectCard from '../components/SubjectCard';
-import useSound from '../hooks/useSound'; // Asegúrate de que la ruta sea correcta
+import useSound from '../hooks/useSound';
+import { useAuth } from '../context/useAuth';      // ① Importa el hook
 import './Dashboard.css';
 import Chatbot from '../components/Chatbot';
 
 export default function Dashboard() {
-    // 🔊 Hook para reproducir el sonido al hacer clic
     const playClick = useSound('/Sonidos/click.mp3');
+    const { user, logout } = useAuth();             // ② Desestructura logout
 
-    
     const subjects = [
         {
             title: 'Filosofía',
@@ -42,9 +43,15 @@ export default function Dashboard() {
 
     return (
         <div className="dashboard-container">
-            <div className="saludo-suave">
-                <p>Bienvenido de nuevo 👋</p>
-            </div>
+            <header className="dashboard-header">
+                <div className="saludo-suave">
+                    <p>Bienvenido, {user?.firstName || 'Usuario'} 👋</p>
+                </div>
+                {/* ③ Botón de Cerrar sesión */}
+                <button className="logout-btn" onClick={logout} aria-label="Cerrar sesión">
+                    ⬅️ Cerrar sesión
+                </button>
+            </header>
 
             <h1>Panel de Materias</h1>
             <div className="subjects-grid">
@@ -52,8 +59,9 @@ export default function Dashboard() {
                     <SubjectCard key={sub.to} {...sub} />
                 ))}
             </div>
-            + <Chatbot />
+
+            {/* Chatbot flotante */}
+            <Chatbot />
         </div>
     );
-
 }
