@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { login } from '../services/auth';
 import './LoginPage.css';
@@ -17,16 +17,31 @@ export default function LoginPage() {
             const { token } = await login(email, pwd);
             if (token) {
                 localStorage.setItem('token', token);
-               
-                - navigate('/');
-                + navigate('/dashboard');
+
+                // 🔊 Reproducir audio de inicio
+                const inicioAudio = new Audio('/Sonidos/SonidoInicio.mp3');
+                inicioAudio.play().catch(err => {
+                    console.error('No se pudo reproducir SonidoInicio:', err);
+                });
+
+                navigate('/dashboard');
             } else {
                 setError('Credenciales incorrectas');
             }
         } catch {
-            setError('Error en el servidor');
+            setError('Correo electrónico o contraseña inválidos.');
         }
     };
+
+    // 🔊 Error de login
+    useEffect(() => {
+        if (error === 'Correo electrónico o contraseña inválidos.') {
+            const audioCorreo = new Audio('/Sonidos/VozErrorLoginCorreo.mp3');
+            audioCorreo.play().catch(err => {
+                console.error('No se pudo reproducir el sonido de error:', err);
+            });
+        }
+    }, [error]);
 
     return (
         <div className="login-container">
@@ -69,8 +84,8 @@ export default function LoginPage() {
                         className="btn"
                         onClick={() => {
                             const audio = new Audio('/Sonidos/click.mp3');
-                            audio.play().catch(error => {
-                                console.error("No se pudo reproducir el sonido:", error);
+                            audio.play().catch(err => {
+                                console.error('No se pudo reproducir el sonido de clic:', err);
                             });
                         }}
                     >
@@ -84,8 +99,8 @@ export default function LoginPage() {
                         to="/register"
                         onClick={() => {
                             const audio = new Audio('/Sonidos/click.mp3');
-                            audio.play().catch(error => {
-                                console.error("No se pudo reproducir el sonido:", error);
+                            audio.play().catch(err => {
+                                console.error('No se pudo reproducir el sonido de clic:', err);
                             });
                         }}
                     >

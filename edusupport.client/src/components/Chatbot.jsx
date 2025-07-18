@@ -67,7 +67,14 @@ export default function Chatbot() {
             {!open && (
                 <button
                     className="chatbot-toggle"
-                    onClick={toggleChat}
+                    onClick={() => {
+                        const audio = new Audio('/Sonidos/click.mp3');
+                        audio.play().catch(error => {
+                            console.error("No se pudo reproducir el sonido:", error);
+                        });
+                        // Call the original toggleChat function after playing the sound
+                        toggleChat();
+                    }}
                     aria-label="Abrir chat"
                 >
                     💬
@@ -80,7 +87,14 @@ export default function Chatbot() {
                         <h4>Asistente Virtual</h4>
                         <button
                             className="chatbot-close-btn"
-                            onClick={toggleChat}
+                            onClick={() => {
+                                const audio = new Audio('/Sonidos/click.mp3');
+                                audio.play().catch(error => {
+                                    console.error("No se pudo reproducir el sonido:", error);
+                                });
+                                // Call the original toggleChat function after playing the sound
+                                toggleChat();
+                            }}
                             aria-label="Cerrar chat"
                         >
                             ✖
@@ -90,7 +104,17 @@ export default function Chatbot() {
                     {/* Menú de opciones */}
                     <div className="chatbot-menu">
                         {menuPreguntas.map((item, idx) => (
-                            <button key={idx} onClick={() => enviarMensaje(item)}>
+                            <button
+                                key={idx}
+                                onClick={() => {
+                                    const audio = new Audio('/Sonidos/click.mp3');
+                                    audio.play().catch(error => {
+                                        console.error("No se pudo reproducir el sonido:", error);
+                                    });
+                                    // Call your original function after playing the sound
+                                    enviarMensaje(item);
+                                }}
+                            >
                                 {item}
                             </button>
                         ))}

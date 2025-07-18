@@ -22,7 +22,32 @@ export default function RegisterPage() {
                 navigate('/login');
             }
         } catch (err) {
-            setError(err.message || 'Error al registrar');
+            let mensajeError = err.message || 'Error al registrar';
+
+            // 🧹 Modificar mensaje genérico del backend
+            if (mensajeError === 'One or more validation errors occurred.') {
+                mensajeError = 'Correo electrónico inválido.';
+
+                // 📢 Reproducir audio solo en este caso
+                const correoAudio = new Audio('/Sonidos/VozErrorCorreoInvalido.mp3');
+                correoAudio.play().catch(error => {
+                    console.error("No se pudo reproducir el sonido de error de correo:", error);
+                });
+            }
+
+            setError(mensajeError);
+
+            // 🔐 Reproducir audio de contraseña solo si aplica
+            if (mensajeError.toLowerCase().includes('contraseña')) {
+                const audioPath = mensajeError.toLowerCase().includes('al menos 8 caracteres')
+                    ? '/Sonidos/VozErrorCaracteres.mp3'
+                    : '/Sonidos/VozErrorContrasenia.mp3';
+
+                const errorAudio = new Audio(audioPath);
+                errorAudio.play().catch(error => {
+                    console.error("No se pudo reproducir el sonido de error de contraseña:", error);
+                });
+            }
         }
     };
 

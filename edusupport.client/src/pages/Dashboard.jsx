@@ -48,7 +48,18 @@ export default function Dashboard() {
                     <p>Bienvenido, {user?.firstName || 'Usuario'} 👋</p>
                 </div>
                 {/* ③ Botón de Cerrar sesión */}
-                <button className="logout-btn" onClick={logout} aria-label="Cerrar sesión">
+                <button
+                    className="logout-btn"
+                    onClick={() => {
+                        const audio = new Audio('/Sonidos/click.mp3');
+                        audio.play().catch(error => {
+                            console.error("No se pudo reproducir el sonido:", error);
+                        });
+                        // Llama a la función original `logout` después de reproducir el sonido
+                        logout();
+                    }}
+                    aria-label="Cerrar sesión"
+                >
                     ⬅️ Cerrar sesión
                 </button>
             </header>

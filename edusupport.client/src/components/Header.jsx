@@ -35,13 +35,20 @@ export default function Header() {
         <header style={headerStyle}>
             {user && ( // Solo muestra el botón si el usuario está autenticado
                 <button
-                    onClick={handleLogout}
+                    onClick={() => {
+                        const audio = new Audio('/Sonidos/click.mp3');
+                        audio.play().catch(error => {
+                            console.error("No se pudo reproducir el sonido:", error);
+                        });
+                        // Llama a la función original handleLogout después de reproducir el sonido
+                        handleLogout();
+                    }}
                     style={btnStyle}
                     onMouseOver={(e) => e.target.style.background = '#c82333'}
                     onMouseOut={(e) => e.target.style.background = '#dc3545'}
                 >
                     Cerrar sesión
-                </button>
+                </button> >
             )}
         </header>
     );

@@ -9,11 +9,17 @@ export default function TextSizeButton({ setFontSize }) {
         <>
             <button
                 className="text-size-toggle"
-                onClick={() => setOpen((o) => !o)}
+                onClick={() => {
+                    const audio = new Audio('/Sonidos/click.mp3');
+                    audio.play().catch(error => {
+                        console.error("No se pudo reproducir el sonido:", error);
+                    });
+                    // Call the original function to toggle the text size settings
+                    setOpen((o) => !o);
+                }}
                 aria-label="Configuración de texto"
             >
                 🔤
-
             </button>
 
             {open && (

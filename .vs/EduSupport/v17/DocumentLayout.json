@@ -3,16 +3,88 @@
   "WorkspaceRootPath": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\pages\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\pages\\loginpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\loginpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\pages\\cienciasnaturales.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\cienciasnaturales.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\pages\\filosofia.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\filosofia.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\pages\\historia.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\historia.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\pages\\ingles.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\ingles.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\pages\\registerpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\registerpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\moduleviewer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\moduleviewer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\pages\\dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\header.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\accessibilityconfig.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\accessibilityconfig.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\chatbot.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\chatbot.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\subjectdetail.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\subjectdetail.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\textsizebutton.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\textsizebutton.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\privateroute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\privateroute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\services\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\services\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\services\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\services\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\pages\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\context\\useauth.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -27,14 +99,6 @@
       "RelativeMoniker": "D:0:0:{CFBDADBE-BFB3-4EE7-A38C-A15D4D7E05FF}|EduSupport.Server\\EduSupport.Server.csproj|solutionrelative:edusupport.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\context\\authprovider.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\context\\authprovider.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -47,24 +111,8 @@
       "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\textsizebutton.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\textsizebutton.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\textsizebutton.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\accessibilityconfig.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\accessibilityconfig.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\accessibilityconfig.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\accessibilityconfig.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\chatbot.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\chatbot.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFBDADBE-BFB3-4EE7-A38C-A15D4D7E05FF}|EduSupport.Server\\EduSupport.Server.csproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.server\\migrations\\20250709032430_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,14 +135,6 @@
       "RelativeMoniker": "D:0:0:{CFBDADBE-BFB3-4EE7-A38C-A15D4D7E05FF}|EduSupport.Server\\EduSupport.Server.csproj|solutionrelative:edusupport.server\\models\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\pages\\registerpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\registerpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\pages\\loginpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\loginpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\hooks\\usesound.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\hooks\\usesound.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -107,22 +147,6 @@
       "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\subjectcard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\pages\\cienciasnaturales.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\cienciasnaturales.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\pages\\filosofia.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\filosofia.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\pages\\historia.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\historia.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\pages\\ingles.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\ingles.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\pages\\subjectpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\subjectpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -131,20 +155,8 @@
       "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\privateroute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\privateroute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\moduleviewer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\moduleviewer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\moduleviewer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\moduleviewer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\subjectdetail.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\subjectdetail.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFBDADBE-BFB3-4EE7-A38C-A15D4D7E05FF}|EduSupport.Server\\EduSupport.Server.csproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -159,24 +171,12 @@
       "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\pages\\loginpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\services\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\services\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\services\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\services\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\src\\components\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|solutionrelative:edusupport.client\\src\\components\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A61D6F24-1EC8-413F-80D4-C4A1CCC2F510}|edusupport.client\\edusupport.client.esproj|d:\\jenny\\desktop\\proyecto_final\\edusupport\\edusupport.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -218,11 +218,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 24,
+          "SelectedChildIndex": 45,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 26,
               "Title": "TextSizeButton.css",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\TextSizeButton.css",
               "RelativeDocumentMoniker": "edusupport.client\\src\\components\\TextSizeButton.css",
@@ -230,24 +230,24 @@
               "RelativeToolTip": "edusupport.client\\src\\components\\TextSizeButton.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-18T01:03:46.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:03:46.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "TextSizeButton.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\TextSizeButton.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\components\\TextSizeButton.jsx",
               "ToolTip": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\TextSizeButton.jsx",
               "RelativeToolTip": "edusupport.client\\src\\components\\TextSizeButton.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-18T00:54:25.306Z"
+              "WhenOpened": "2025-07-18T00:54:25.306Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 27,
               "Title": "AccessibilityConfig.css",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\AccessibilityConfig.css",
               "RelativeDocumentMoniker": "edusupport.client\\src\\components\\AccessibilityConfig.css",
@@ -259,19 +259,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "AccessibilityConfig.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\AccessibilityConfig.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\components\\AccessibilityConfig.jsx",
               "ToolTip": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\AccessibilityConfig.jsx",
               "RelativeToolTip": "edusupport.client\\src\\components\\AccessibilityConfig.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwDIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-18T00:50:13.674Z"
+              "WhenOpened": "2025-07-18T00:50:13.674Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 28,
               "Title": "20250709032430_InitialCreate.cs",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\EduSupport.Server\\Migrations\\20250709032430_InitialCreate.cs",
               "RelativeDocumentMoniker": "EduSupport.Server\\Migrations\\20250709032430_InitialCreate.cs",
@@ -283,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 29,
               "Title": "AppDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\EduSupport.Server\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "EduSupport.Server\\Migrations\\AppDbContextModelSnapshot.cs",
@@ -295,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "Chatbot.css",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\Chatbot.css",
               "RelativeDocumentMoniker": "edusupport.client\\src\\components\\Chatbot.css",
@@ -303,23 +304,25 @@
               "RelativeToolTip": "edusupport.client\\src\\components\\Chatbot.css",
               "ViewState": "AgIAAD8AAABAMjMzMzMrwJUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-18T00:10:26.687Z"
+              "WhenOpened": "2025-07-18T00:10:26.687Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "Chatbot.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\Chatbot.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\components\\Chatbot.jsx",
               "ToolTip": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\Chatbot.jsx",
               "RelativeToolTip": "edusupport.client\\src\\components\\Chatbot.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAwHYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-18T00:09:02.464Z"
+              "WhenOpened": "2025-07-18T00:09:02.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 24,
               "Title": "AuthProvider.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\context\\AuthProvider.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\context\\AuthProvider.jsx",
@@ -327,12 +330,11 @@
               "RelativeToolTip": "edusupport.client\\src\\context\\AuthProvider.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-17T04:05:56.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T04:05:56.722Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 21,
               "Title": "useAuth.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\context\\useAuth.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\context\\useAuth.jsx",
@@ -340,12 +342,11 @@
               "RelativeToolTip": "edusupport.client\\src\\context\\useAuth.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-17T04:00:21.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T04:00:21.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 25,
               "Title": "AuthContext.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\context\\AuthContext.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\context\\AuthContext.jsx",
@@ -353,60 +354,63 @@
               "RelativeToolTip": "edusupport.client\\src\\context\\AuthContext.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-17T03:32:06.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T03:32:06.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 4,
               "Title": "Ingles.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\Ingles.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\pages\\Ingles.jsx",
               "ToolTip": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\Ingles.jsx",
               "RelativeToolTip": "edusupport.client\\src\\pages\\Ingles.jsx",
-              "ViewState": "AgIAAA4AAAAA/P////8YwCUAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAhGZmZmbyvz8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-16T23:08:02.317Z"
+              "WhenOpened": "2025-07-16T23:08:02.317Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 3,
               "Title": "Historia.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\Historia.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\pages\\Historia.jsx",
               "ToolTip": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\Historia.jsx",
               "RelativeToolTip": "edusupport.client\\src\\pages\\Historia.jsx",
-              "ViewState": "AgIAAAwAAABAZmZmZmYkwCUAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAA/f///78qwFEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-16T23:07:40.852Z"
+              "WhenOpened": "2025-07-16T23:07:40.852Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 2,
               "Title": "Filosofia.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\Filosofia.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\pages\\Filosofia.jsx",
               "ToolTip": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\Filosofia.jsx",
               "RelativeToolTip": "edusupport.client\\src\\pages\\Filosofia.jsx",
-              "ViewState": "AgIAAA0AAABAzczMzAwswCUAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAeJmZmZkOwFEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-16T23:07:15.551Z"
+              "WhenOpened": "2025-07-16T23:07:15.551Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 1,
               "Title": "CienciasNaturales.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\CienciasNaturales.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\pages\\CienciasNaturales.jsx",
               "ToolTip": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\CienciasNaturales.jsx",
               "RelativeToolTip": "edusupport.client\\src\\pages\\CienciasNaturales.jsx",
-              "ViewState": "AgIAACcAAAAA0MzMzMwAwEoAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAEAAAAAAAwA0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-16T23:06:51.918Z"
+              "WhenOpened": "2025-07-16T23:06:51.918Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "ModuleViewer.css",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\ModuleViewer.css",
               "RelativeDocumentMoniker": "edusupport.client\\src\\components\\ModuleViewer.css",
@@ -430,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "SubjectDetail.css",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\SubjectDetail.css",
               "RelativeDocumentMoniker": "edusupport.client\\src\\components\\SubjectDetail.css",
@@ -442,31 +446,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 7,
               "Title": "ModuleViewer.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\ModuleViewer.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\components\\ModuleViewer.jsx",
               "ToolTip": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\ModuleViewer.jsx",
               "RelativeToolTip": "edusupport.client\\src\\components\\ModuleViewer.jsx",
-              "ViewState": "AgIAAK0AAAAAAAAAAAD4v7oAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABMBAAAAAAAAAAD4vygBAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-16T03:28:52.979Z"
+              "WhenOpened": "2025-07-16T03:28:52.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 13,
               "Title": "SubjectDetail.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\SubjectDetail.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\components\\SubjectDetail.jsx",
               "ToolTip": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\SubjectDetail.jsx",
               "RelativeToolTip": "edusupport.client\\src\\components\\SubjectDetail.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJ4AAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-16T02:37:40.899Z"
+              "WhenOpened": "2025-07-16T02:37:40.899Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 32,
               "Title": "UserLoginDto.cs",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\EduSupport.Server\\Models\\UserLoginDto.cs",
               "RelativeDocumentMoniker": "EduSupport.Server\\Models\\UserLoginDto.cs",
@@ -478,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
               "Title": "UserRegisterDto.cs",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\EduSupport.Server\\Models\\UserRegisterDto.cs",
               "RelativeDocumentMoniker": "EduSupport.Server\\Models\\UserRegisterDto.cs",
@@ -490,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 33,
               "Title": "useSound.js",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\hooks\\useSound.js",
               "RelativeDocumentMoniker": "edusupport.client\\src\\hooks\\useSound.js",
@@ -502,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "SubjectPage.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\SubjectPage.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\pages\\SubjectPage.jsx",
@@ -514,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 20,
               "Title": "Dashboard.css",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\Dashboard.css",
               "RelativeDocumentMoniker": "edusupport.client\\src\\pages\\Dashboard.css",
@@ -522,12 +528,11 @@
               "RelativeToolTip": "edusupport.client\\src\\pages\\Dashboard.css",
               "ViewState": "AgIAAFEAAAAANDMzM/MmwGgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-14T13:53:05.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T13:53:05.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 35,
               "Title": "SubjectCard.css",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\SubjectCard.css",
               "RelativeDocumentMoniker": "edusupport.client\\src\\components\\SubjectCard.css",
@@ -539,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "SubjectCard.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\SubjectCard.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\components\\SubjectCard.jsx",
@@ -563,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 9,
               "Title": "Layout.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\Layout.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\components\\Layout.jsx",
@@ -571,49 +576,50 @@
               "RelativeToolTip": "edusupport.client\\src\\components\\Layout.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-12T02:37:45.28Z"
+              "WhenOpened": "2025-07-12T02:37:45.28Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Header.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\Header.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\components\\Header.jsx",
               "ToolTip": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\Header.jsx",
               "RelativeToolTip": "edusupport.client\\src\\components\\Header.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwDEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-07-12T02:35:40.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 18,
               "Title": "api.js",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\services\\api.js",
               "RelativeDocumentMoniker": "edusupport.client\\src\\services\\api.js",
               "ToolTip": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\services\\api.js",
               "RelativeToolTip": "edusupport.client\\src\\services\\api.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-07-12T02:29:39.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Dashboard.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\Dashboard.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\pages\\Dashboard.jsx",
               "ToolTip": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\Dashboard.jsx",
               "RelativeToolTip": "edusupport.client\\src\\pages\\Dashboard.jsx",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAwDMAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-07-12T02:25:53.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 15,
               "Title": "PrivateRoute.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\components\\PrivateRoute.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\components\\PrivateRoute.jsx",
@@ -621,11 +627,12 @@
               "RelativeToolTip": "edusupport.client\\src\\components\\PrivateRoute.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-12T02:21:13.668Z"
+              "WhenOpened": "2025-07-12T02:21:13.668Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "LoginPage.css",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\LoginPage.css",
               "RelativeDocumentMoniker": "edusupport.client\\src\\pages\\LoginPage.css",
@@ -637,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "index.html",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\index.html",
               "RelativeDocumentMoniker": "edusupport.client\\index.html",
@@ -649,19 +656,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 5,
               "Title": "RegisterPage.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\RegisterPage.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\pages\\RegisterPage.jsx",
               "ToolTip": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\RegisterPage.jsx",
               "RelativeToolTip": "edusupport.client\\src\\pages\\RegisterPage.jsx",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAIQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-09T14:11:17.345Z"
+              "WhenOpened": "2025-07-09T14:11:17.345Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 30,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\EduSupport.Server\\Models\\User.cs",
               "RelativeDocumentMoniker": "EduSupport.Server\\Models\\User.cs",
@@ -673,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "main.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\main.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\main.jsx",
@@ -686,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "index.css",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\index.css",
               "RelativeDocumentMoniker": "edusupport.client\\src\\index.css",
@@ -698,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "App.css",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\App.css",
               "RelativeDocumentMoniker": "edusupport.client\\src\\App.css",
@@ -722,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\EduSupport.Server\\Program.cs",
               "RelativeDocumentMoniker": "EduSupport.Server\\Program.cs",
@@ -769,31 +777,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 0,
               "Title": "LoginPage.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\LoginPage.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\pages\\LoginPage.jsx",
               "ToolTip": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\pages\\LoginPage.jsx",
               "RelativeToolTip": "edusupport.client\\src\\pages\\LoginPage.jsx",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFwAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-09T03:34:00.305Z"
+              "WhenOpened": "2025-07-09T03:34:00.305Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 19,
               "Title": "auth.js",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\services\\auth.js",
               "RelativeDocumentMoniker": "edusupport.client\\src\\services\\auth.js",
               "ToolTip": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\services\\auth.js",
               "RelativeToolTip": "edusupport.client\\src\\services\\auth.js",
-              "ViewState": "AgIAABEAAABAAgAAAAARwBcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-07-09T03:33:19.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "App.jsx",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\edusupport.client\\src\\App.jsx",
               "RelativeDocumentMoniker": "edusupport.client\\src\\App.jsx",
@@ -801,8 +810,7 @@
               "RelativeToolTip": "edusupport.client\\src\\App.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-09T03:32:07.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T03:32:07.894Z"
             },
             {
               "$type": "Document",
@@ -818,7 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 23,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\EduSupport.Server\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "EduSupport.Server\\Controllers\\AuthController.cs",
@@ -826,8 +834,7 @@
               "RelativeToolTip": "EduSupport.Server\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T02:51:35.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T02:51:35.748Z"
             },
             {
               "$type": "Document",
@@ -843,7 +850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Jenny\\Desktop\\Proyecto_Final\\EduSupport\\EduSupport.Server\\appsettings.json",
               "RelativeDocumentMoniker": "EduSupport.Server\\appsettings.json",
@@ -851,8 +858,7 @@
               "RelativeToolTip": "EduSupport.Server\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-09T02:48:25.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T02:48:25.877Z"
             }
           ]
         }
