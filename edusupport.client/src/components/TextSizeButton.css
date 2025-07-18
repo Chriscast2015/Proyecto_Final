@@ -1,0 +1,15 @@
+.text-size-toggle {
+    position: fixed;
+    bottom: 7rem;
+    right: 2rem;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    background-color: #1c1c1c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}

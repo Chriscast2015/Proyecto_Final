@@ -1,0 +1,56 @@
+.accessibility-modal {
+    position: fixed;
+    bottom: 5rem;
+    right: 2rem;
+    width: 280px;
+    background: white;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    z-index: 1002;
+    padding: 1rem;
+    font-family: 'Jost', sans-serif;
+}
+
+.accessibility-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accessibility-subtitle {
+    margin: 1rem 0 0.5rem;
+    font-weight: 600;
+}
+
+.accessibility-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.size-btn {
+    padding: 0.5rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: all 0.2s ease;
+    text-align: left;
+}
+
+    .size-btn:hover {
+        background-color: #e0e0e0;
+    }
+
+    .size-btn.selected {
+        border-color: #ffcc00;
+        background-color: #fff8e1;
+    }
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
