@@ -5,28 +5,28 @@ export default function Ingles() {
 
     const modules = [
         {
-            title: "Módulo 1: Vocabulario Básico",
-            description: "Palabras esenciales para la comunicación",
+            title: "Módulo 1: Say Hello to English!",
+            description: "Enseña saludos y presentaciones en inglés.",
             duration: "1:05",
             audioSrc: "/Sonidos/ingles1.mp3",
             transcript:
-                'Enseña saludos básicos y presentaciones en inglés ("Hello", "How are you?", "My name is...").',
+                "Hello! Repite: 'Good morning', 'How are you?'. Responde: 'I’m fine' o 'I’m happy'. Pregunta: 'What’s your name?'. Di: 'My name is...'. ¡Practica ahora!",
         },
         {
-            title: "Módulo 2: Gramática Fundamental",
-            description: "Estructura del idioma inglés",
+            title: "Módulo 2: The Colors of the World",
+            description: "Presenta vocabulario de colores y su uso en frases.",
             duration: "0:58",
             audioSrc: "/Sonidos/ingles2.mp3",
             transcript:
-                'Presenta vocabulario de colores y su uso en oraciones simples ("The sky is blue").',
+                "Aprende colores: red, blue, yellow. Usa frases como 'The sky is blue'. Di: 'My favorite color is...'. ¡Inténtalo!.",
         },
         {
-            title: "Módulo 3: Comprensión Auditiva",
-            description: "Mejora tu habilidad para entender el inglés hablado",
+            title: "Módulo 3:  My Day in English",
+            description: "Describe una rutina diaria en inglés.",
             duration: "1:10",
             audioSrc: "/Sonidos/ingles3.mp3",
             transcript:
-                'Cubre frases para describir rutinas diarias ("I wake up", "I go to school") y cómo expresar la hora.',
+                "Di en inglés: 'I wake up', 'I brush my teeth', 'I go to school'. Aprende horas: 'It’s eight o’clock'. ¿Te gusta la mañana? Di: 'I like the morning'",
         },
     ];
 
@@ -104,7 +104,7 @@ const styles = {
     container: {
         padding: "2rem",
         fontFamily: "'Jost', sans-serif",
-        background: "linear-gradient(to bottom, #1c1c2b, #2f2f55, #3e3e66)",
+        background: "linear-gradient(to bottom, #0f0c29, #302b63, #24243e)",
         minHeight: "100vh",
         color: "#f2e8c4",
     },
@@ -184,9 +184,9 @@ const styles = {
         maxHeight: "300px",
         overflowY: "auto",
         backgroundColor: "rgba(255, 255, 255, 0.15)",
-        borderLeft: "5px solid #3ec9a7", // azul suave para inglés
+        borderLeft: "5px solid #3ec9a7",
         borderRadius: "10px",
-        color: "#e5f1ff",
+        color: "#e5e5e5",
         boxShadow: "0 4px 15px rgba(0, 0, 0, 0.5)",
         padding: "1rem",
         backdropFilter: "blur(6px)",

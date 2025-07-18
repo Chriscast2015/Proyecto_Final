@@ -7,19 +7,19 @@ export default function CienciasNaturales() {
         {
             title: "Módulo 1: Nuestro cuerpo, una máquina maravillosa",
             description:
-                "Descubre cómo tu cuerpo funciona como un equipo increíble...",
+                " Describe las funciones del cerebro, corazón, pulmones y otros órganos.",
             duration: "0:48",
             audioSrc: "/Sonidos/fundamentos.mp3",
             transcript:
-                "Inicio: sonido de latidos suaves + respiración tranquila] Narradora (voz cercana y entusiasta): ¡Hola, exploradores! Hoy vamos a conocer el lugar más importante donde vives: ¡tu propio cuerpo! Tu cuerpo está formado por millones de partes que trabajan en equipo. Por ejemplo: el cerebro piensa y da órdenes, como un director de orquesta. El corazón nunca descansa: late, late y late, para enviar sangre a todo el cuerpo. Tus pulmones toman aire, ese aire se llama oxígeno y es como la comida para tus células. [Sonido de respiración + suave ritmo del corazón] ¿Puedes sentir cómo sube y baja tu pecho cuando respiras? ¡Eso es vida en movimiento! Tu piel te protege del frío, el calor y las bacterias. Y tus huesos te dan forma como el esqueleto de un robot. [Sonido tipo clic metálico suave como huesos moviéndose] ¿Sabías que cuando sonríes usas más de 10 músculos? ¡Tu cuerpo es una máquina inteligente y fuerte! ¿Listo para descubrir más? Vamos al siguiente módulo.",
+                "¡Hola exploradores! Tu cuerpo es como una máquina.El cerebro es el director, el corazón late sin parar y los pulmones toman oxígeno.La piel te protege y los huesos te dan forma. ¿Sabías que al sonreír usas más de 10 músculos ? ¡Tu cuerpo es fuerte e inteligente!",
         },
         {
             title: "Módulo 2: La naturaleza que nos rodea",
             description:
-                "Se explora el cuerpo humano como un sistema coordinado donde cada órgano cumple un papel esencial para la vida.",
+                "Invita a reflexionar sobre la importancia de árboles, ríos y animales.",
             duration: "0:50",
             audioSrc: "/Sonidos/intermedio.mp3",
-            transcript: "MÓDULO 2: La naturaleza que nos rodea (Duración aprox: 1:30 min)...",
+            transcript: "Cierra los ojos y escucha: pájaros, viento, ríos.Los árboles limpian el aire, las lombrices ayudan a las plantas.Hay frutas únicas como la guanábana.Debemos cuidar la naturaleza: no tirar basura, ahorrar agua y respetar a los animales. ¿Cuál es tu animal favorito?",
         },
         {
             title: "Módulo 3: El agua, el sol y la vida",
@@ -27,7 +27,7 @@ export default function CienciasNaturales() {
                 "Destaca el papel fundamental del agua y el sol en el desarrollo de la vida, y la necesidad de protegerlos.",
             duration: "0:52",
             audioSrc: "/Sonidos/avanzado.mp3",
-            transcript: "El agua, el sol y la vida (Duración aprox: 1:30 min)...",
+            transcript: "Imagina una semilla que crece con agua y sol.El agua es un superpoder: sin ella no hay vida.El sol da energía a las plantas.Pero si contaminamos, perdemos ese poder.Sé un defensor: cierra la llave, planta una flor y cuida el planeta. ¡Él cuenta contigo!",
         },
     ];
 
@@ -182,7 +182,7 @@ const styles = {
     },
     transcriptPopup: {
         position: "absolute",
-        bottom: " -170px", // ajusta para que se despliegue justo debajo del botón
+        bottom: " -230px", // ajusta para que se despliegue justo debajo del botón
         left: "0",
         width: "100%",
         maxHeight: "300px",

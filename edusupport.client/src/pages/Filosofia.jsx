@@ -6,27 +6,28 @@ export default function Filosofia() {
     const modules = [
         {
             title: "Módulo 1: Introducción a la Filosofía",
-            description: "Explora los orígenes del pensamiento filosófico",
+            description: "Define la filosofía y su origen en Grecia y otras culturas.",
             duration: "1:41",
             audioSrc: "/Sonidos/filosofia1.mp3",
             transcript:
-                "Introduce el concepto de filosofía como amor al saber, mencionando a pensadores como Sócrates y su enfoque en preguntas fundamentales.",
+                "Filosofía significa 'amor por el saber'.En Grecia, Sócrates hacía preguntas como '¿Qué es la justicia?'.También en India y América se pensaba sobre la vida.Si te preguntas '¿Por qué existimos?', ¡ya eres un filósofo!.",
+
         },
         {
-            title: "Módulo 2: Ética y Moral",
-            description: "Reflexiona sobre el bien y el mal",
+            title: "Módulo 2: ¿Para qué sirve pensar?",
+            description: "Muestra cómo el pensamiento crítico ayuda a tomar decisiones y entender emociones.",
             duration: "1:22",
             audioSrc: "/Sonidos/filosofia2.mp3",
             transcript:
-                "Analiza cómo el pensamiento crítico ayuda en la toma de decisiones, la ética y el autoconocimiento.",
+                "Pensar te ayuda a decidir y resolver problemas. Por ejemplo: '¿Mentir siempre está mal?'. La filosofía busca la verdad dialogando. También te ayuda a entender tus miedos o alegrías. ¡Piensa con la razón y el corazón!",
         },
         {
-            title: "Módulo 3: Filosofía Contemporánea",
-            description: "Ideas modernas y corrientes actuales",
+            title: "Módulo 3: Tú también eres un filósofo",
+            description: "Invita a los oyentes a reflexionar sobre preguntas profundas y actuar con ética.",
             duration: "1:29",
             audioSrc: "/Sonidos/filosofia3.mp3",
             transcript:
-                "Motiva a reflexionar sobre preguntas profundas, demostrando que todos pueden filosofar en la vida cotidiana.",
+                "No necesitas ser adulto para filosofar. Platón, Aristóteles y los pueblos originarios pensaban sobre el bien y la naturaleza. Tú lo haces cuando preguntas o actúas con honestidad. ¡Tus pensamientos pueden cambiar el mundo!",
         },
     ];
 
@@ -178,7 +179,7 @@ const styles = {
     },
     transcriptPopup: {
         position: "absolute",
-        bottom: "-200px",
+        bottom: "-210px",
         left: "0",
         width: "100%",
         maxHeight: "300px",

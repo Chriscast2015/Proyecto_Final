@@ -6,27 +6,27 @@ export default function Historia() {
     const modules = [
         {
             title: "Módulo 1: Edad Antigua",
-            description: "Civilizaciones clásicas y sus legados",
+            description: "Introduce los primeros pueblos del Ecuador, como Valdivia, Quitus y Cañaris, sus costumbres y la llegada de los incas.",
             duration: "1:10",
             audioSrc: "/Sonidos/historia1.mp3",
             transcript:
-                "Explora los primeros habitantes del Ecuador, como los Valdivia, Quitus y Cañaris, y cómo los incas influyeron en la región antes de la llegada de los españoles.",
+                "¡Hola amiguitos y amiguitas! Hoy viajaremos muy atrás en el tiempo... Imagina que no hay carros, ni casas, ni celulares. Solo naturaleza. Aquí vivían los primeros habitantes del Ecuador, hace más de 5.000 años. Uno de los primeros pueblos fue el Valdivia, que hacían ollitas de barro. En la Sierra vivían los Quitus, que adoraban al sol, y en el sur, los Cañaris, que decían salir de una laguna mágica. Luego llegaron los incas desde Perú, pero apareció un nuevo peligro: barcos gigantes desde el mar. ¿Quiénes eran? Descúbrelo en el siguiente módulo.",
         },
         {
-            title: "Módulo 2: Edad Media",
-            description: "Feudalismo, religión y cultura medieval",
+            title: "Módulo 2:  La conquista y la independencia",
+            description: "Relata la conquista española, la lucha por la libertad y la Batalla de Pichincha.",
             duration: "1:04",
             audioSrc: "/Sonidos/historia2.mp3",
             transcript:
-                "Relata la llegada de los españoles, la colonización y la lucha por la libertad que culminó en la Batalla de Pichincha (1822), dando paso a la independencia.",
+                "Los barcos venían de España.Los conquistadores tenían espadas y buscaban oro.Tomaron las tierras y por 300 años Ecuador fue parte de su imperio.Pero el 10 de agosto de 1809, un grupo en Quito gritó: '¡Queremos libertad!'.Años después, el 24 de mayo de 1822, el general Sucre ganó la Batalla de Pichincha. ¡Quito fue libre! Así nació la idea de Ecuador.",
         },
         {
-            title: "Módulo 3: Edad Moderna y Contemporánea",
-            description: "Revoluciones, guerras y globalización",
+            title: "Módulo 3: El Ecuador de ayer y de hoy",
+            description: "Explica la formación de Ecuador como país independiente, sus regiones y diversidad cultural.",
             duration: "1:02",
             audioSrc: "/Sonidos/historia3.mp3",
             transcript:
-                "Repasa la formación del Ecuador como país independiente, sus regiones geográficas, cultura y logros históricos hasta la actualidad.",
+                "Después de liberarse, Ecuador fue parte de Gran Colombia.En 1830 se volvió independiente.Tuvimos presidentes, guerras y logros, como el voto femenino.Hoy tenemos 4 regiones: Costa con playas, Sierra con volcanes, Amazonía con ríos y Galápagos con animales únicos.Somos millones hablando español, quichua y shuar. ¡Tú también eres parte de esta historia!",
         },
     ];
 
@@ -178,7 +178,7 @@ const styles = {
     },
     transcriptPopup: {
         position: "absolute",
-        bottom: "-200px",
+        bottom: "-330px",
         left: "0",
         width: "100%",
         maxHeight: "300px",
