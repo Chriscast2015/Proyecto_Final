@@ -2,6 +2,7 @@
 import SubjectCard from '../components/SubjectCard';
 import useSound from '../hooks/useSound'; // Asegúrate de que la ruta sea correcta
 import './Dashboard.css';
+import Chatbot from '../components/Chatbot';
 
 export default function Dashboard() {
     // 🔊 Hook para reproducir el sonido al hacer clic
@@ -51,6 +52,7 @@ export default function Dashboard() {
                     <SubjectCard key={sub.to} {...sub} />
                 ))}
             </div>
+            + <Chatbot />
         </div>
     );
 
