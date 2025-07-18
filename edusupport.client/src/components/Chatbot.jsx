@@ -13,8 +13,8 @@ export default function Chatbot() {
         '¿Cómo loguearse?',
         '¿Cómo registrarse?',
         '¿Qué materias hay?',
-        'Contactos ',
-        'Soporte técnico '
+        'Contactos',
+        'Soporte técnico'
     ];
 
     // Saludo inicial
@@ -34,15 +34,15 @@ export default function Chatbot() {
         switch (texto) {
             case 'Ubicación':
                 return '📍 EduSupport es 100% en línea, accesible desde cualquier dispositivo.';
-            case 'Cómo loguearse':
+            case '¿Cómo loguearse?':
                 return '🔐 Ve a "Login" e introduce tu correo y contraseña.';
-            case 'Cómo registrarse':
+            case '¿Cómo registrarse?':
                 return '✍️ Haz clic en "Register", completa el formulario y confirma tu email.';
-            case 'Qué materias hay':
+            case '¿Qué materias hay?':
                 return '📚 Ofrecemos Filosofía, Historia, Inglés y Ciencias Naturales.';
-            case 'Contactos (Alex Montero 0987157159, Christian Castro 0983946002)':
+            case 'Contactos':
                 return '📞 Alex Montero: 0987157159\n📞 Christian Castro: 0983946002';
-            case 'Soporte técnico (daniel.feijoo@uisek.edu.ec, jose.escobar@uisek.edu.ec)':
+            case 'Soporte técnico':
                 return '🛠️ daniel.feijoo@uisek.edu.ec\n🛠️ jose.escobar@uisek.edu.ec';
             default:
                 return '🤖 Selecciona una opción válida del menú.';

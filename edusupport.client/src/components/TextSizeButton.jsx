@@ -12,7 +12,8 @@ export default function TextSizeButton({ setFontSize }) {
                 onClick={() => setOpen((o) => !o)}
                 aria-label="Configuración de texto"
             >
-                🅰️
+                🔤
+
             </button>
 
             {open && (

@@ -25,6 +25,9 @@ export default function AccessibilityConfig({ onClose, setFontSize }) {
                         className={`size-btn ${selected === size ? 'selected' : ''}`}
                         onClick={() => handleChange(size)}
                     >
+                        {selected === size && (
+                            <span aria-hidden="true" style={{ marginRight: '0.5rem' }}>✔️</span>
+                        )}
                         {size === 'normal' ? 'Normal' : size === 'grande' ? 'Grande' : 'Extra grande'}
                     </button>
                 ))}
