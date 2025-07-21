@@ -1,3 +1,14 @@
+/*
+ * Vista detallada de una materia específica que muestra todos sus módulos disponibles.
+ * Proporciona navegación entre módulos y retroalimentación visual del progreso.
+ * 
+ * FUNCIONALIDADES PRINCIPALES:
+ * 1. Carga dinámica de módulos basada en el parámetro de ruta(subjectSlug)
+ * 2. Visualización de tarjetas interactivas para cada módulo
+ * 3. Manejo de estados de carga y error
+ * 4. Efectos de sonido para interacciones
+ * 5. Navegación entre vistas(dashboard y módulos)*/
+
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import useSound from '../hooks/useSound'; // Ruta correcta para useSound
@@ -8,7 +19,7 @@ export default function SubjectDetail() {
     const { subjectSlug } = useParams(); // Obtiene el slug de la URL (ej., 'filosofia')
     const navigate = useNavigate(); // Hook para navegación programática
     const playClick = useSound('/Sonidos/click.mp3'); // Sonido para clics
-    const playSuccess = useSound('/Sonidos/success.mp3'); // Sonido para completar (ejemplo)
+    //const playSuccess = useSound('/Sonidos/success.mp3'); // Sonido para completar (ejemplo)
 
     const [subjectName, setSubjectName] = useState('');
     const [modules, setModules] = useState([]);

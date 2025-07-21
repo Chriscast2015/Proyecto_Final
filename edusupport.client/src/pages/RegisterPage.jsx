@@ -1,4 +1,21 @@
-﻿import { useState } from 'react';
+﻿/**
+ * =============================================
+ * COMPONENTE: RegisterPage
+ * =============================================
+ * 
+ * DESCRIPCIÓN:
+ * Página de registro que permite a nuevos usuarios crear una cuenta
+ * en la plataforma. Incluye validación de campos y feedback auditivo.
+ * 
+ * CARACTERÍSTICAS PRINCIPALES:
+ * - Formulario de registro con 4 campos obligatorios
+ * - Validación de correo electrónico
+ * - Manejo de errores con feedback visual y auditivo
+ * - Redirección automática tras registro exitoso
+ * - Efectos de sonido en interacciones
+ */ 
+
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { register } from '../services/auth';
 import './RegisterPage.css';

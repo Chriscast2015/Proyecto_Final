@@ -1,4 +1,21 @@
-﻿import React, { useState } from "react";
+﻿/**
+ * =============================================
+ * COMPONENTE: Ingles
+ * =============================================
+ * 
+ * DESCRIPCIÓN:
+ * Componente que muestra módulos interactivos para el aprendizaje de inglés básico,
+ * incluyendo audio, transcripciones y ejercicios prácticos.
+ * 
+ * CARACTERÍSTICAS PRINCIPALES:
+ * - 3 módulos de aprendizaje de inglés (saludos, colores, rutinas)
+ * - Reproductor de audio integrado en cada módulo
+ * - Transcripciones interactivas con efecto de despliegue
+ * - Diseño responsive con CSS-in-JS
+ * - Efectos visuales y de sonido para mejor interacción
+ */ 
+
+import React, { useState } from "react";
 
 export default function Ingles() {
     const [activeIndex, setActiveIndex] = useState(null);

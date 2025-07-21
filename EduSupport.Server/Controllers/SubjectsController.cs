@@ -1,4 +1,13 @@
-﻿// YourProjectName/Controllers/SubjectsController.cs
+﻿/*
+ Controlador API RESTful que gestiona el sistema de materias educativas, módulos y contenido de aprendizaje. Proporciona endpoints para:
+
+1. Listar todas las materias disponibles
+2. Obtener detalles específicos de cada materia
+3. Acceder al contenido completo de los módulos
+4. Marcar módulos como completados
+ */
+
+// YourProjectName/Controllers/SubjectsController.cs
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;

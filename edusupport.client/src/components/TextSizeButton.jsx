@@ -1,4 +1,14 @@
-﻿import React, { useState } from 'react';
+﻿/* * DESCRIPCIÓN:
+ * Botón interactivo que despliega un panel de configuración de accesibilidad
+ * para ajustar el tamaño del texto en la aplicación.
+ * 
+ * FUNCIONALIDADES:
+ * 1. Muestra / oculta el panel de configuración de accesibilidad
+ * 2. Reproduce un sonido al interactuar
+ * 3. Proporciona accesibilidad mediante ARIA*/
+   
+
+import React, { useState } from 'react';
 import AccessibilityConfig from './AccessibilityConfig';
 import './TextSizeButton.css';
 

@@ -1,4 +1,19 @@
-// src/hooks/useSound.jsx
+/**
+ * =============================================
+ * HOOK PERSONALIZADO: useSound
+ * =============================================
+ * 
+ * DESCRIPCIÓN:
+ * Hook personalizado para manejar la reproducción de efectos de sonido
+ * en componentes React. Simplifica la implementación de audio
+ * y maneja errores comunes.
+ * 
+ * CARACTERÍSTICAS:
+ * - Precarga automática del audio para mejor performance
+ * - Manejo de errores durante la reproducción
+ * - Interfaz simple para componentes hijos
+ */ 
+
 const useSound = (src) => {
     const playSound = () => {
         try {

@@ -1,3 +1,21 @@
+/**
+ * =============================================
+ * COMPONENTE: Filosofia
+ * =============================================
+ * 
+ * DESCRIPCIÓN:
+ * Página que muestra los módulos disponibles para la materia de Filosofía,
+ * incluyendo contenido multimedia interactivo y transcripciones accesibles.
+ * 
+ * CARACTERÍSTICAS PRINCIPALES:
+ * - Listado de módulos con reproductor de audio integrado
+ * - Sistema de despliegue de transcripciones
+ * - Efectos visuales y de sonido interactivos
+ * - Diseño responsive con CSS-in-JS
+ * - Accesibilidad mejorada con ARIA
+ */
+
+
 import React, { useState } from "react";
 
 export default function Filosofia() {

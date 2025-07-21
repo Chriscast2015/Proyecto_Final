@@ -1,4 +1,22 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿/*
+ Este objeto de transferencia de datos (Data Transfer Object) se utiliza en el proceso
+// de registro de nuevos usuarios en el sistema EduSupport.
+//
+// Contiene los campos necesarios para registrar un usuario: nombre, apellido, correo y
+// contraseña. Cada propiedad incluye validaciones mediante anotaciones de data (Data Annotations)
+// para asegurar la integridad de los datos antes de ser procesados en el backend.
+//
+// Las validaciones aseguran:
+// - Que los campos no estén vacíos (Required).
+// - Que nombre y apellido tengan al menos 3 caracteres.
+// - Que el correo tenga un formato válido.
+// - Que la contraseña tenga al menos 8 caracteres, una mayúscula y un número.
+//
+// Este DTO es comúnmente utilizado en el controlador de autenticación o usuario.
+  
+ */
+
+using System.ComponentModel.DataAnnotations;
 
 namespace EduSupport.Server.Models
 {

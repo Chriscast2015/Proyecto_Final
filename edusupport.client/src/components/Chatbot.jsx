@@ -1,4 +1,23 @@
-﻿// src/components/Chatbot.jsx
+﻿/**
+ * Grupo 2 "Página web de apoyo para estudiantes con discapacidad visual"
+ *
+ * Este componente representa un asistente virtual llamado "Luna", diseñado para ayudar a los usuarios
+ * proporcionando respuestas rápidas a preguntas frecuentes sobre el sitio web.
+ *
+ * Funcionalidades principales:
+ * - Botón flotante para abrir/cerrar el chat.
+ * - Saludo inicial automático al cargar el componente.
+ * - Menú de preguntas predefinidas que generan respuestas automáticas.
+ * - Reproducción de un sonido al hacer clic en botones.
+ * - Auto-scroll hacia el último mensaje para mejorar la experiencia del usuario.
+ *
+ * Este componente no tiene entrada de texto libre, solo usa botones preestablecidos para mantener
+ * las respuestas controladas y adecuadas.
+ *
+ * Estilos personalizados desde el archivo 'Chatbot.css'.
+ */
+
+
 import React, { useState, useEffect, useRef } from 'react';
 import './Chatbot.css';
 

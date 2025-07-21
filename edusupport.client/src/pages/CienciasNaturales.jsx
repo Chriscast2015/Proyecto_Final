@@ -1,4 +1,21 @@
-﻿import React, { useState } from "react";
+﻿/**
+ * =============================================
+ * COMPONENTE: CienciasNaturales
+ * =============================================
+ * 
+ * DESCRIPCIÓN:
+ * Componente que muestra los módulos disponibles para Ciencias Naturales,
+ * incluyendo reproductores de audio y transcripciones interactivas.
+ * 
+ * CARACTERÍSTICAS:
+ * - Tarjetas interactivas para cada módulo
+ * - Reproductor de audio integrado
+ * - Sistema de despliegue de transcripciones
+ * - Efectos visuales y de sonido
+ * - Diseño responsive
+ */
+
+import React, { useState } from "react";
 
 export default function CienciasNaturales() {
     const [activeIndex, setActiveIndex] = useState(null);

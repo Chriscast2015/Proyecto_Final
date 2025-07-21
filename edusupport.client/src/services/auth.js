@@ -1,4 +1,18 @@
-// src/services/auth.js
+/**
+ * =============================================
+ * SERVICIO: Auth API
+ * =============================================
+ * 
+ * DESCRIPCIÓN:
+ * Módulo que gestiona las operaciones de autenticación contra el backend
+ * incluyendo registro y login de usuarios.
+ * 
+ * CARACTERÍSTICAS:
+ * - Maneja el endpoint base '/api/auth'
+ * - Procesa respuestas de error del servidor
+ * - Normaliza mensajes de error para mejor UX
+ * - Usa fetch API con cabeceras JSON
+ */ 
 
 // Usamos ruta relativa para que Vite redirija al backend
 const API = '/api/auth';

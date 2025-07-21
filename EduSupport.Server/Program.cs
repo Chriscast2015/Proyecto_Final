@@ -1,3 +1,18 @@
+/*
+ / Este es el punto de entrada principal para la aplicación backend de EduSupport.
+// Configura y arranca la aplicación ASP.NET Core con los siguientes servicios:
+//
+// 1. Controladores y Swagger para documentación de la API.
+// 2. Entity Framework Core con conexión a SQL Server.
+// 3. CORS (Cross-Origin Resource Sharing) para permitir solicitudes desde otros orígenes.
+// 4. Autenticación con JWT Bearer (tokens firmados para proteger rutas).
+// 5. Archivos estáticos y fallback para una SPA (como React) alojada en wwwroot.
+//
+// El pipeline HTTP se configura para aplicar redirección HTTPS, autenticación, autorización
+// y manejo de rutas controladas (API) y no controladas (SPA).
+ */
+
+
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;

@@ -1,4 +1,21 @@
-﻿import React, { useState } from "react";
+﻿/**
+ * =============================================
+ * COMPONENTE: Historia
+ * =============================================
+ * 
+ * DESCRIPCIÓN:
+ * Componente que muestra los módulos educativos sobre la historia del Ecuador,
+ * con contenido interactivo que incluye audios y transcripciones.
+ * 
+ * CARACTERÍSTICAS:
+ * - Tres módulos sobre historia ecuatoriana
+ * - Reproductores de audio integrados
+ * - Transcripciones interactivas
+ * - Diseño responsive con CSS-in-JS
+ * - Efectos visuales y de sonido
+ */ 
+
+import React, { useState } from "react";
 
 export default function Historia() {
     const [activeIndex, setActiveIndex] = useState(null);

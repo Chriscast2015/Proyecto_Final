@@ -1,4 +1,20 @@
-// src/components/Header.jsx
+/**
+ * Grupo 2 "Página web de apoyo para estudiantes con discapacidad visual"
+ *
+ * Este componente representa la cabecera superior del sitio.
+ * Su propósito principal es mostrar un botón de "Cerrar sesión" cuando el usuario está autenticado.
+ *
+ * Funcionalidades:
+ * - Verifica si hay un usuario autenticado usando `useAuth`.
+ * - Si el usuario está presente, muestra un botón para cerrar sesión.
+ * - Al hacer clic en el botón, se reproduce un sonido de clic y luego se ejecuta `logout()` y se redirige a la ruta "/login".
+ * - Aplica estilos en línea para el diseño del encabezado y el botón.
+ * - El botón cambia ligeramente de color al pasar el cursor sobre él.
+ *
+ * Este componente es útil para proporcionar una opción de salida clara al usuario en toda la aplicación protegida.
+ */
+
+
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/useAuth';

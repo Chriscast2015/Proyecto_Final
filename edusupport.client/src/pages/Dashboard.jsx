@@ -1,4 +1,24 @@
-﻿// src/pages/Dashboard.jsx
+﻿/**
+ * =============================================
+ * PÁGINA: Dashboard
+ * =============================================
+ * 
+ * DESCRIPCIÓN:
+ * Página principal que muestra el panel de materias disponibles
+ * después de que el usuario inicia sesión. Incluye:
+ * - Mensaje de bienvenida personalizado
+ * - Grid de tarjetas de materias interactivas
+ * - Botón de cierre de sesión
+ * - Componente de chatbot asistente
+ * 
+ * FUNCIONALIDADES:
+ * - Muestra nombre de usuario actual
+ * - Navegación a diferentes materias
+ * - Efectos de sonido en interacciones
+ * - Cierre de sesión seguro
+ * - Asistente mediante chatbot
+ */ 
+
 import React from 'react';
 import SubjectCard from '../components/SubjectCard';
 import useSound from '../hooks/useSound';

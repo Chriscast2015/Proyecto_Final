@@ -1,4 +1,21 @@
-﻿import React, { useState, useEffect } from 'react';
+﻿/**
+ * =============================================
+ * COMPONENTE: LoginPage
+ * =============================================
+ * 
+ * DESCRIPCIÓN:
+ * Página de inicio de sesión que permite a los usuarios autenticarse
+ * en la plataforma mediante correo electrónico y contraseña.
+ * 
+ * FUNCIONALIDADES PRINCIPALES:
+ * - Validación básica de credenciales
+ * - Manejo de errores con feedback auditivo
+ * - Redirección al dashboard tras login exitoso
+ * - Enlace a página de registro
+ * - Efectos de sonido en interacciones
+ */
+
+import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { login } from '../services/auth';
 import './LoginPage.css';

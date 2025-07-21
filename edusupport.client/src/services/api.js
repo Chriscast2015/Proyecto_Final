@@ -1,5 +1,17 @@
-// src/services/api.js
-
+/**
+ * =============================================
+ * SERVICIO: fetchWithAuth
+ * =============================================
+ * 
+ * DESCRIPCIÓN:
+ * Función utilitaria para realizar peticiones HTTP autenticadas
+ * incluyendo automáticamente el token JWT almacenado en localStorage.
+ * 
+ * CARACTERÍSTICAS:
+ * - Añade automáticamente headers de autorización
+ * - Maneja errores de HTTP y falta de token
+ * - Simplifica el consumo de APIs protegidas
+ * - Soporta todas las opciones estándar de fetch
 /**
  * Realiza una petición fetch incluyendo el header Authorization con el token JWT.
  * @param {string} path - Ruta relativa (/api/...).

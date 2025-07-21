@@ -1,4 +1,21 @@
-﻿import React, { useState, useEffect } from 'react';
+﻿/**
+ * =============================================
+ * COMPONENTE PRINCIPAL: App
+ * =============================================
+ * 
+ * DESCRIPCIÓN:
+ * Componente raíz que configura el enrutamiento principal de la aplicación
+ * y provee los contextos globales necesarios.
+ * 
+ * FUNCIONALIDADES PRINCIPALES:
+ * - Configuración del enrutamiento con React Router
+ * - Provee contexto de autenticación a toda la app
+ * - Control de tamaño de fuente accesible
+ * - Protección de rutas privadas
+ * - Redirección de rutas no encontradas
+ */ 
+
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
 import LoginPage from './pages/LoginPage';

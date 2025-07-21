@@ -1,4 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿/*
+ Controlador API RESTful que maneja la autenticación de usuarios, incluyendo:
+- Registro de nuevos usuarios
+- Inicio de sesión (login)
+- Generación de tokens JWT
+ */
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
